@@ -4,7 +4,7 @@ import TxtForm from "./components/TxtForm";
 import Alert from "./components/Alert";
 import About from "./components/About";
 import React, { useState } from "react";
-import { BrowserRouter as BRouter, Routes, Route} from "react-router-dom";
+import { BrowserRouter as HashRouter, Routes, Route} from "react-router-dom";
 
 function App() {
     const [mode, setMode] = useState("light"); //weather darkmode is enabled or not
